@@ -388,6 +388,11 @@ DecafSDLOpenGL::shutdown()
 }
 
 void
+DecafSDLOpenGL::windowResized()
+{
+}
+
+void
 DecafSDLOpenGL::renderFrame(float tv[4], float drc[4])
 {
    if (!config::gpu::force_sync) {

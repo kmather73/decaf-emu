@@ -21,6 +21,9 @@ public:
    shutdown() override;
 
    void
+   windowResized() override;
+
+   void
    renderFrame(float tv[4], float drc[4]) override;
 
    decaf::GraphicsDriver *

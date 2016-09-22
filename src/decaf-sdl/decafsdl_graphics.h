@@ -14,6 +14,9 @@ public:
    shutdown() = 0;
 
    virtual void
+   windowResized() = 0;
+
+   virtual void
    renderFrame(float tv[4], float drc[4]) = 0;
 
    virtual decaf::GraphicsDriver *
